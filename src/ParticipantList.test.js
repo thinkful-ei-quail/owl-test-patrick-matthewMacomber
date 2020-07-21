@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PatricipantList from './ParticipantList';
+import renderer from 'react-test-renderer';
+import ParticipantList from './ParticipantList';
 
 describe('Participant list testing', () => {
   const participants = [
@@ -48,7 +49,14 @@ describe('Participant list testing', () => {
   //Smoke test
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<PatricipantList participants={participants}/>, div);
+    ReactDOM.render(<ParticipantList participants={participants}/>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
+
+  it('renders the UI as expected', () => {
+    const tree = renderer
+      .create(<ParticipantList participants={participants}/>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();  
+    });
 });
