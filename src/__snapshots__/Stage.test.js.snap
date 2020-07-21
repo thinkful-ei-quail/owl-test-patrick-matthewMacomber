@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage testing renders the UI as expected 1`] = `
+<div
+  className="Stage"
+>
+  <div>
+    <section
+      className="UserStage"
+    >
+      <div>
+        <div>
+          Koren Templeton
+        </div>
+        <div>
+          <img
+            alt="Mic level bar"
+            src="volumeline.jpg"
+          />
+        </div>
+        <div>
+          <span
+            aria-label="Speaker Emoji"
+            role="img"
+          >
+            🔊
+          </span>
+          <span
+            aria-label="Magnifiying Glass"
+            role="img"
+          >
+            🔍
+          </span>
+        </div>
+      </div>
+      <img
+        alt="Avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </section>
+    
+    
+    
+    <section
+      className="UserStage"
+    >
+      <div>
+        <div>
+          Ashla Attwool
+        </div>
+        <div>
+          <img
+            alt="Mic level bar"
+            src="volumeline.jpg"
+          />
+        </div>
+        <div>
+          <span
+            aria-label="Speaker Emoji"
+            role="img"
+          >
+            🔊
+          </span>
+          <span
+            aria-label="Magnifiying Glass"
+            role="img"
+          >
+            🔍
+          </span>
+        </div>
+      </div>
+      <img
+        alt="Avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+    </section>
+  </div>
+  <div>
+    <img
+      alt="Mic level bar"
+      src="volumeline.jpg"
+    />
+    <img
+      alt="Avatar"
+      src="anAvatar.jpg"
+    />
+  </div>
+</div>
+`;
