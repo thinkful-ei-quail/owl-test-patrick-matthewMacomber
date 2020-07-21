@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Participant list testing renders the UI as expected 1`] = `
-<div>
+<div
+  className="participantList"
+>
   <section
     className="participant"
     id={1}
@@ -27,7 +29,9 @@ exports[`Participant list testing renders the UI as expected 1`] = `
         >
           ⬤
         </div>
-        <div>
+        <div
+          className="statusText"
+        >
           on stage
         </div>
       </div>
@@ -58,7 +62,9 @@ exports[`Participant list testing renders the UI as expected 1`] = `
         >
           ⬤
         </div>
-        <div>
+        <div
+          className="statusText"
+        >
           in session
         </div>
       </div>
@@ -89,7 +95,9 @@ exports[`Participant list testing renders the UI as expected 1`] = `
         >
           ⬤
         </div>
-        <div>
+        <div
+          className="statusText"
+        >
           offline
         </div>
       </div>
@@ -120,7 +128,9 @@ exports[`Participant list testing renders the UI as expected 1`] = `
         >
           ⬤
         </div>
-        <div>
+        <div
+          className="statusText"
+        >
           in session
         </div>
       </div>
@@ -151,7 +161,9 @@ exports[`Participant list testing renders the UI as expected 1`] = `
         >
           ⬤
         </div>
-        <div>
+        <div
+          className="statusText"
+        >
           on stage
         </div>
       </div>
