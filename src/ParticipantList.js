@@ -15,8 +15,8 @@ function ParticipantList(props) {
 
   return <div>
     {props.participants.map(par => {
-      <section id={par.id} className="participant">
-        <img src={par.avatar} className="avatar" />
+      return <section key={par.id} id={par.id} className="participant">
+        <img src={par.avatar} className="avatar" alt="avatar" />
         <div className="info">
           <div className="name">{par.name}</div>
           <div className="status">
@@ -29,6 +29,10 @@ function ParticipantList(props) {
       </section>
     })}  
   </div>
+}
+
+ParticipantList.defaultProps = {
+  participants: []
 }
 
 export default ParticipantList;
