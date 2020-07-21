@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ChatLog component renders the UI as expected 1`] = `
+<section
+  className="chat-log"
+>
+  <div>
+    <div>
+      <img
+        alt="avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+      <h3>
+        $
+        Axe Kubicka
+      </h3>
+      7:48:04 AM
+    </div>
+    Hello world
+  </div>
+  <div>
+    Caty Flucker gave a thumbs up &#128077;
+  </div>
+  <div>
+    Frank Runciman gave a thumbs down &#128078;
+  </div>
+  <div>
+    Koren Templeton raised their hand &#9995;
+  </div>
+  <div>
+    Koren Templeton clapped &#128079;
+  </div>
+  <div>
+    Koren Templeton joined
+  </div>
+  <div>
+    Ashla Attwool left
+  </div>
+  <div>
+    Axe Kubicka joined the stage
+  </div>
+  <div>
+    Axe Kubicka left the stage
+  </div>
+</section>
+`;
