@@ -14,25 +14,25 @@ function checkStatus(inSession, onStage) {
 
 function ParticipantList(props) {
   return <div>
-      {props.participants.map(par => {
-        return  <section id={par.id} className="participant">
-                  <img src={par.avatar} className="avatar" alt="Avatar" />
-                  <div className="info">
-                    <div className="name">
-                      {par.name}
-                    </div>
-                    <div className="status">
-                      <div className={par.inSession ? 'sessionOn' : 'sessionOff'}>
-                        &#11044;
-                      </div>
-                      <div>
-                        {checkStatus(par.inSession, par.onStage)}
-                      </div>
-                    </div>
-                  </div>
-                </section>
-  })}
-  </div>;
+    {props.participants.map(par => {
+      return <section key={par.id} id={par.id} className="participant">
+        <img src={par.avatar} className="avatar" alt="avatar" />
+        <div className="info">
+          <div className="name">{par.name}</div>
+          <div className="status">
+            <div className={par.inSession ? 'sessionOn' : 'sessionOff'}>&#11044;</div>
+            <div>
+              {checkStatus(par.inSession, par.onStage)}
+            </div>
+          </div>
+        </div>
+      </section>
+    })}  
+  </div>
+}
+
+ParticipantList.defaultProps = {
+  participants: []
 }
 
 export default ParticipantList;

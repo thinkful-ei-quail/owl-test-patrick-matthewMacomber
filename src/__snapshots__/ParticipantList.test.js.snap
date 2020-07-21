@@ -1,3 +1,161 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Participant list testing renders the UI as expected 1`] = `<div />`;
+exports[`Participant list testing renders the UI as expected 1`] = `
+<div>
+  <section
+    className="participant"
+    id={1}
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        Koren Templeton
+      </div>
+      <div
+        className="status"
+      >
+        <div
+          className="sessionOn"
+        >
+          ⬤
+        </div>
+        <div>
+          on stage
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="participant"
+    id={2}
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        Caty Flucker
+      </div>
+      <div
+        className="status"
+      >
+        <div
+          className="sessionOn"
+        >
+          ⬤
+        </div>
+        <div>
+          in session
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="participant"
+    id={3}
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        Axe Kubicka
+      </div>
+      <div
+        className="status"
+      >
+        <div
+          className="sessionOff"
+        >
+          ⬤
+        </div>
+        <div>
+          offline
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="participant"
+    id={4}
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        Frank Runciman
+      </div>
+      <div
+        className="status"
+      >
+        <div
+          className="sessionOn"
+        >
+          ⬤
+        </div>
+        <div>
+          in session
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="participant"
+    id={5}
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <div
+      className="info"
+    >
+      <div
+        className="name"
+      >
+        Ashla Attwool
+      </div>
+      <div
+        className="status"
+      >
+        <div
+          className="sessionOn"
+        >
+          ⬤
+        </div>
+        <div>
+          on stage
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

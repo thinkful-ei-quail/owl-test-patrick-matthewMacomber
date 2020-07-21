@@ -53,6 +53,13 @@ describe('Participant list testing', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
+  //Smoke test
+  it('renders without props without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<ParticipantList />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
   it('renders the UI as expected', () => {
     const tree = renderer
       .create(<ParticipantList participants={participants}/>)
