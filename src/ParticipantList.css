@@ -1,0 +1,43 @@
+.participantList {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.participant {
+  display: flex;
+}
+
+.avatar {
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.status > div {
+  margin-right: 10px;
+}
+
+.sessionOn {
+  color: #64D481;
+}
+
+.sessionOff {
+  color: lightgrey;
+}
+
+.statusText {
+  color: #818994;
+}
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import './ParticipantList.css'
 
 function checkStatus(inSession, onStage) {
   if(!inSession) {
@@ -13,7 +14,7 @@ function checkStatus(inSession, onStage) {
 }
 
 function ParticipantList(props) {
-  return <div>
+  return <div className="participantList">
     {props.participants.map(par => {
       return <section key={par.id} id={par.id} className="participant">
         <img src={par.avatar} className="avatar" alt="avatar" />
@@ -21,7 +22,7 @@ function ParticipantList(props) {
           <div className="name">{par.name}</div>
           <div className="status">
             <div className={par.inSession ? 'sessionOn' : 'sessionOff'}>&#11044;</div>
-            <div>
+            <div className="statusText">
               {checkStatus(par.inSession, par.onStage)}
             </div>
           </div>

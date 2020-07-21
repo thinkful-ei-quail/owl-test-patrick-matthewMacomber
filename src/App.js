@@ -1,9 +1,11 @@
 import React from 'react';
+import ParticipantList from './ParticipantList';
+import Store from './Store';
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <ParticipantList participants={Store}/>
     </main>
   );
 }
